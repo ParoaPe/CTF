@@ -119,7 +119,7 @@ I know this challenges and I have directely check they web sources, here we have
 
 In this challenge, we have the code source of the site and I see somewhere in the code (picture) an link to `/api/output` and this link call function who lunck a request to `flag`. So I decide to check this link and I found the flag.
 
-![Code_Crypto_Spin.png](Images/Code_Web_Password-1.png)
+![Code_Web_Password-1.png](Images/Code_Web_Password-1.png)
 **![](https://lh4.googleusercontent.com/s41kY_7K20Q80B-1M_grTPDzI1mzLrB8XIPFiG-rQGYmcPUY3Yx376A63cma67wxIgi5I63eS1wBfWDA4Ja9Ui7FdvmIOSYi73VY7slnTElsF-7NjvReYAkckdN_bGnd7ygtfehldEYjbZ4RG0HOYRmCrWjPUH08NJpqJsB01vacsZrVNEPCdUxFIg)**
 
 **Falg :** `flag{why_is_hashing_in_browser_so_hard}`
@@ -138,7 +138,7 @@ In this challenge, we have the code source of the site and I see somewhere in th
 
 This challenge is like the Web/Password-1, I have the source code of the website. I look it and I see an simple SQL command in the code, so i decide to launch an easy SQL injection with `' OR '1'='1` who work and let me see the flag.
 
-![Code_Crypto_Spin.png](Images/Code_Web_Password-2.png)
+![Code_Web_Password-2.png](Images/Code_Web_Password-2.png)
 **![](https://lh5.googleusercontent.com/3d0NUjPDfAR1-XM8vpgvKiYdN3n92NEeLFeQWWCKcjqxfpiNAxhwgRQDq-Jf0a1-DPay9geIAAK8tpnr2z-fTelKtEi8BM6sOeQYljNT4eJ-djflke0oILvwhmQiXs5eY4epq5RjcXP3_ywCZ841X_nWT9otLxYXF2zYaVLtljzjqjIDQi1Rvgm13w)**
 
 **Flag :** `flag{i_love_in_memery_sqlite}`
