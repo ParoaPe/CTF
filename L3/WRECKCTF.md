@@ -19,8 +19,8 @@ For this CTF, I participated from the opening on Friday, September 30 at 10 p.m 
 
 1. Miscellaneous
    
-   - [Miscellaneous/Discord](##Miscellaneous/Discord)
-   - [Miscellaneous/Smoke-check](##Miscellaneous/Smoke-check)
+   - [Miscellaneous/Discord](#Miscellaneous/Discord)
+   - [Miscellaneous/Smoke-check](#Miscellaneous/Smoke-check)
    - [Miscellaneous/Bash](##Miscellaneous/Bash)
 
 2. Web
