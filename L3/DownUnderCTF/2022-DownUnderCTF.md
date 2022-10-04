@@ -85,7 +85,7 @@ So I was going to the DownUnderCTF twitter and I found the flag in the bio.
 
 Alright, so going to the link they give us we get this webpage.
 
-![Web_Helicoptering.png](Web_Helicoptering.png)
+![Web_Helicoptering.png](Images/Web_Helicoptering.png)
 
 Now, the webpage tells us we need to access two directories
 
@@ -107,7 +107,7 @@ RewriteRule ".*" "-" [F]
 
 Without knowing any of this syntax there's a few things I recognise. We've got a 'RewriteCond' which I assume is the condition it checks when we try to go to the directory, and inside that condition I see a bit of regex. That regex is `^localhost$`, the `^` denotes the beginning of a string and `$` denotes the end. That means the regex will only match strings that are exactly `localhost`. Alright, but what's that `%{HTTP_HOST}` thingo ? Well I just pasted that into google and found this stack exchange page :
 
-![Web_Helicoptering_2.png](Web_Helicoptering_2.png)
+![Web_Helicoptering_2.png](Images/Web_Helicoptering_2.png)
 
 If that looks like a lot of random words, don't worry. We only need to focus on that very first sentence.
 
@@ -115,7 +115,7 @@ If that looks like a lot of random words, don't worry. We only need to focus on 
 
 So when we send a request to a website our request looks something like this :
 
-![Web_Helicoptering_3.png](Web_Helicoptering_3.png)
+![Web_Helicoptering_3.png](Images/Web_Helicoptering_3.png)
 
 Notice those blue highlighted fields, they're the **request headers** that you sent to the server. Different headers are used in different contexts, you'll see the common ones a lot and some other ones less frequently, but there's plenty of documentation for them and you'll pick up the common ones pretty quick.
 
@@ -123,11 +123,11 @@ Anyway, we know from that stack exchange post that `%{HTTP_HOST}` holds the va
 Reflections
 We can do this inside of burpsuite pretty easily, intercepting a request to `/one/flag.txt`, changing the `Host` header to equal `localhost` and sending it through. Making that change, our request then looks like this :
 
-![Web_Helicoptering_4.png](Web_Helicoptering_4.png)
+![Web_Helicoptering_4.png](Images/Web_Helicoptering_4.png)
 
 Sending it through and we get the first flag :
 
-![Web_Helicoptering_5.png](Web_Helicoptering_5.png)
+![Web_Helicoptering_5.png](Images/Web_Helicoptering_5.png)
 
 Awesome! Now let's take a look at the next one :
 
@@ -153,11 +153,11 @@ Putting that into our URL looks like this :
 
 Awesome, now the only catch is that you have to send this request directly to the server. If you try putting it in your browser your browser will decode the text before it sends it. So the correct request in burpsuite looks like this :
 
-![Web_Helicoptering_6.png](Web_Helicoptering_6.png)
+![Web_Helicoptering_6.png](Images/Web_Helicoptering_6.png)
 
 And we get the second part of our flag !
 
-![Web_Helicoptering_7.png](Web_Helicoptering_7.png)
+![Web_Helicoptering_7.png](Images/Web_Helicoptering_7.png)
 
 **Flag :** `DUCTF{thats_it_next_time_im_using_nginx}`
 
