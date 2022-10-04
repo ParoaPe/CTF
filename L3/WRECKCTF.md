@@ -19,24 +19,24 @@ For this CTF, I participated from the opening on Friday, September 30 at 10 p.m 
 
 1. Miscellaneous
    
-   - [Miscellaneous/Discord](#Discord)
-   - [Miscellaneous/Smoke-check](#Miscellaneous/Smoke-check)
-   - [Miscellaneous/Bash](##Miscellaneous/Bash)
+   - [Miscellaneous_Discord](#Miscellaneous_Discord)
+   - [Miscellaneous_Smoke-check](#Miscellaneous_Smoke-check)
+   - [Miscellaneous_Bash](#Miscellaneous_Bash)
 
 2. Web
    
-   - [Web/Sources](##Web/Sources)
-   - [Web/Password-1](##Web/Password-1)
-   - [Web/Password-2](##Web/Password-2)
-   - [Web/Notes-1](##Web/Notes-1)
+   - [Web_Sources](#Web_Sources)
+   - [Web_Password-1](#Web_Password-1)
+   - [Web_Password-2](#Web_Password-2)
+   - [Web_Notes-1](#Web_Notes-1)
 
 3. Crypto
    
-   - [Crypto/Spin](##Crypto/Spin)
+   - [Crypto_Spin](#Crypto_Spin)
 
 ---
 
-## Discord
+## Miscellaneous_Discord
 
 ![X category](https://img.shields.io/badge/category-misc-blue.svg)
 ![X points](https://img.shields.io/badge/points-1-green.svg)
@@ -53,7 +53,7 @@ So I was join the WRECKCTF discord and I found the flag.
 
 ---
 
-## Miscellaneous/Smoke-check
+## Miscellaneous_Smoke-check
 
 ![X category](https://img.shields.io/badge/category-misc-blue.svg)
 ![X points](https://img.shields.io/badge/points-1-green.svg)
@@ -70,7 +70,7 @@ I read the file `flag.txt` and i found the flag (very difficult !).
 
 ---
 
-## Miscellaneous/Bash
+## Miscellaneous_Bash
 
 ![X category](https://img.shields.io/badge/category-misc-blue.svg)
 ![X points](https://img.shields.io/badge/points-112-green.svg)
@@ -88,7 +88,7 @@ I was try the netcat connection and I type many commands like `ls`, after that I
 
 ---
 
-## Web/Sources
+## Web_Sources
 
 ![X category](https://img.shields.io/badge/category-web-blue.svg)
 ![X points](https://img.shields.io/badge/points-100-green.svg)
@@ -110,7 +110,7 @@ I know this challenges and I have directely check they web sources, here we have
 
 ---
 
-## Web/Password-1
+## Web_Password-1
 
 ![X category](https://img.shields.io/badge/category-web-blue.svg)
 ![X points](https://img.shields.io/badge/points-130-green.svg)
@@ -129,7 +129,7 @@ In this challenge, we have the code source of the site and I see somewhere in th
 
 ---
 
-## Web/Password-2
+## Web_Password-2
 
 ![X category](https://img.shields.io/badge/category-web-blue.svg)
 ![X points](https://img.shields.io/badge/points-183-green.svg)
@@ -153,7 +153,7 @@ Adding `'OR'1'='1`, which is a true statement, all passwords are returned.
 
 ---
 
-## Web/Notes-1
+## Web_Notes-1
 
 ![X category](https://img.shields.io/badge/category-web-blue.svg)
 ![X points](https://img.shields.io/badge/points-245-green.svg)
@@ -174,7 +174,7 @@ Also I tried to `-1` but I had no results.
 
 ---
 
-## Crypto/Spin
+## Crypto_Spin
 
 ![X category](https://img.shields.io/badge/category-crypto-blue.svg)
 ![X points](https://img.shields.io/badge/points-116-green.svg)
