@@ -19,7 +19,7 @@ For this CTF, I participated from the opening on Friday, September 30 at 10 p.m 
 
 1. Miscellaneous
    
-   - [Miscellaneous/Discord](#Miscellaneous/Discord)
+   - [Miscellaneous/Discord](#Discord)
    - [Miscellaneous/Smoke-check](#Miscellaneous/Smoke-check)
    - [Miscellaneous/Bash](##Miscellaneous/Bash)
 
@@ -36,7 +36,7 @@ For this CTF, I participated from the opening on Friday, September 30 at 10 p.m 
 
 ---
 
-## Miscellaneous/Discord
+## Discord
 
 ![X category](https://img.shields.io/badge/category-misc-blue.svg)
 ![X points](https://img.shields.io/badge/points-1-green.svg)
