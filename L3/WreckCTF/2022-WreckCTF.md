@@ -1,47 +1,44 @@
-# WRECK CTF
+# Wreck CTF
 
 ---
 
-Writeup of  [WRECKCTF](<https://wreckctf.com/>) :
+Writeup of  [WreckCTF](https://wreckctf.com/) :
 
 ![X date](https://img.shields.io/badge/date-30/09/2022-yellow.svg)
 ![X total points](https://img.shields.io/badge/total_points-888-blue.svg)
-![X place](https://img.shields.io/badge/place-258th-purple.svg)
+![X rank](https://img.shields.io/badge/team_ranking-274%2F524-purple.svg)
 ![X solo](https://img.shields.io/badge/team-alone-orange.svg)
 
 **Description :** Every year, the GreyHat cybersecurity club hosts an educational capture-the-flag competition to help college students around the world build cybersecurity skills. The competition features a number of intentionally vulnerable websites, insecure cryptographic schemes, exploitable binaries, unsafe machine learning models, and more. The full competition runs online from Sept 30 to Oct 2 (2022) and is open to everyone (college students, high school students, and security enthusiasts). We’ll have problems that are interesting to both beginners and advanced students.
 
-For this CTF, I participated from the opening on Friday, September 30 at 10 p.m and I stopped 2-3 hours later.
+For this CTF, I participated (alone) from the opening on Friday, September 30 at 10 p.m and I stopped 2-3 hours later.
 
 ---
 
 ## **Table of Contents**
 
 1. Miscellaneous
-   
-   - [Miscellaneous_Discord](#Miscellaneous_Discord)
-   - [Miscellaneous_Smoke-check](#Miscellaneous_Smoke-check)
-   - [Miscellaneous_Bash](#Miscellaneous_Bash)
+    - [Discord](#Discord)
+    - [Smoke-check](#Smoke-check)
+    - [Bash](#Bash)
 
 2. Web
-   
-   - [Web_Sources](#Web_Sources)
-   - [Web_Password-1](#Web_Password-1)
-   - [Web_Password-2](#Web_Password-2)
-   - [Web_Notes-1](#Web_Notes-1)
+    - [Sources](#Sources)
+    - [Password-1](#Password-1)
+    - [Password-2](#Password-2)
+    - [Notes-1](#Notes-1)
 
 3. Crypto
-   
-   - [Crypto_Spin](#Crypto_Spin)
+    - [Spin](#Spin)
 
 ---
 
-## Miscellaneous_Discord
+## Discord
 
-![X category](https://img.shields.io/badge/category-misc-blue.svg)
+![X category](https://img.shields.io/badge/category-Miscellaneous-blue.svg)
 ![X points](https://img.shields.io/badge/points-1-green.svg)
 
-**Challenge Description:**  This challenge is just for join the Discord and catch the flag on the "Annoucement" Channel.
+**Challenge Description:** This challenge is just for join the Discord and catch the flag on the "Annoucement" Channel.
 
 ### Approach
 
@@ -53,12 +50,12 @@ So I was join the WRECKCTF discord and I found the flag.
 
 ---
 
-## Miscellaneous_Smoke-check
+## Smoke-check
 
-![X category](https://img.shields.io/badge/category-misc-blue.svg)
+![X category](https://img.shields.io/badge/category-Miscellaneous-blue.svg)
 ![X points](https://img.shields.io/badge/points-1-green.svg)
 
-**Challenge Description:** what's in the `flag.txt` ?
+**Challenge Description:** What's in the `flag.txt` ?
 
 ### Approach
 
@@ -70,9 +67,9 @@ I read the file `flag.txt` and i found the flag (very difficult !).
 
 ---
 
-## Miscellaneous_Bash
+## Bash
 
-![X category](https://img.shields.io/badge/category-misc-blue.svg)
+![X category](https://img.shields.io/badge/category-Miscellaneous-blue.svg)
 ![X points](https://img.shields.io/badge/points-112-green.svg)
 
 **Challenge Description:** I guess it's probably dash, not bash. can you read the flag ?
@@ -88,12 +85,12 @@ I was try the netcat connection and I type many commands like `ls`, after that I
 
 ---
 
-## Web_Sources
+## Sources
 
-![X category](https://img.shields.io/badge/category-web-blue.svg)
+![X category](https://img.shields.io/badge/category-Miscellaneous-blue.svg)
 ![X points](https://img.shields.io/badge/points-100-green.svg)
 
-**Challenge Description:** click to spin, search for the flag !
+**Challenge Description:** Click to spin, search for the flag !
 `sources.challs.wreckctf.com`
 
 ### Approach
@@ -110,39 +107,38 @@ I know this challenges and I have directely check they web sources, here we have
 
 ---
 
-## Web_Password-1
+## Password-1
 
-![X category](https://img.shields.io/badge/category-web-blue.svg)
+![X category](https://img.shields.io/badge/category-Web-blue.svg)
 ![X points](https://img.shields.io/badge/points-130-green.svg)
 
-**Challenge Description:** can you figure out how to log in ?
+**Challenge Description:** Can you figure out how to log in ?
 `https://password-1.challs.wreckctf.com`
 
 ### Approach
 
 In this challenge, we have the code source of the site and I see somewhere in the code (picture) an link to `/api/output` and this link call function who lunck a request to `flag`. So I decide to check this link and I found the flag.
 
-**![](https://lh4.googleusercontent.com/Cf5RkRxVNAL2EAH7x0RcyZy3BcVRXVAtAoOvIEZmHsNek0zzOeBT86BFavKh9AK-Y-h6qAxx0ualIaTonHrWXtNTI3pdN9dYp7hGOBg9sZVEOqsk5MmeCVUCZkEzHSwSmKbFi9WfCbe9oILWHN4shjNMgNJOaJ6AJqp49FgHd1IONNvVwKey6whC9Q)**
+![Code_Crypto_Spin.png](Images/Code_Web_Password-1.png)
 **![](https://lh4.googleusercontent.com/s41kY_7K20Q80B-1M_grTPDzI1mzLrB8XIPFiG-rQGYmcPUY3Yx376A63cma67wxIgi5I63eS1wBfWDA4Ja9Ui7FdvmIOSYi73VY7slnTElsF-7NjvReYAkckdN_bGnd7ygtfehldEYjbZ4RG0HOYRmCrWjPUH08NJpqJsB01vacsZrVNEPCdUxFIg)**
 
 **Falg :** `flag{why_is_hashing_in_browser_so_hard}`
 
 ---
 
-## Web_Password-2
+## Password-2
 
-![X category](https://img.shields.io/badge/category-web-blue.svg)
+![X category](https://img.shields.io/badge/category-Web-blue.svg)
 ![X points](https://img.shields.io/badge/points-183-green.svg)
 
-**Challenge Description:** okay, i fixed that. can you still log in?
+**Challenge Description:** Okay, i fixed that. can you still log in?
 `password-2.challs.wreckctf.com`
 
 ### Approach
 
 This challenge is like the Web/Password-1, I have the source code of the website. I look it and I see an simple SQL command in the code, so i decide to launch an easy SQL injection with `' OR '1'='1` who work and let me see the flag.
 
-**![](https://lh3.googleusercontent.com/DPxDDMfveV3oI3zuSG2IvdqolyKvlQ0UIZ8ikHcCat3r77E9fIgtl2J1bN4z7qoSi4l2hMg9BltEkLLnFINuSWoA_JTCrOONYEBucWqU-bI6Lu6OrmeWktUPysoRxGi9IZs9RBNW_1gvdJLxNpC43ugke--UUm_0MBLuO5Qdo_18TS-RJAOr5t69ow)**
-**![](https://lh4.googleusercontent.com/EEHXEq3qlxDnEdjPh9ULPV8BB8Sj54mfNchzojS81x6P1-6KIMV9yNSkcb_nMLCmxfjNZqTWMAhZDOlqkzfiY3lf1Hevi7IRok4E4TPm7VIAGALAyfixT5xQtiYIEKF1CKkRqmtXsVqIvkXaQwOcODM-JF2RaL_p21qc8GHPJnQKlb50Hxi8q8OG4A)**
+![Code_Crypto_Spin.png](Images/Code_Web_Password-2.png)
 **![](https://lh5.googleusercontent.com/3d0NUjPDfAR1-XM8vpgvKiYdN3n92NEeLFeQWWCKcjqxfpiNAxhwgRQDq-Jf0a1-DPay9geIAAK8tpnr2z-fTelKtEi8BM6sOeQYljNT4eJ-djflke0oILvwhmQiXs5eY4epq5RjcXP3_ywCZ841X_nWT9otLxYXF2zYaVLtljzjqjIDQi1Rvgm13w)**
 
 **Flag :** `flag{i_love_in_memery_sqlite}`
@@ -153,12 +149,12 @@ Adding `'OR'1'='1`, which is a true statement, all passwords are returned.
 
 ---
 
-## Web_Notes-1
+## Notes-1
 
-![X category](https://img.shields.io/badge/category-web-blue.svg)
+![X category](https://img.shields.io/badge/category-Web-blue.svg)
 ![X points](https://img.shields.io/badge/points-245-green.svg)
 
-**Challenge Description:** can you read the admin's note ?
+**Challenge Description:** Can you read the admin's note ?
 `https://notes-1.challs.wreckctf.com`
 
 ### Approach
@@ -174,19 +170,19 @@ Also I tried to `-1` but I had no results.
 
 ---
 
-## Crypto_Spin
+## Spin
 
-![X category](https://img.shields.io/badge/category-crypto-blue.svg)
+![X category](https://img.shields.io/badge/category-Crypto-blue.svg)
 ![X points](https://img.shields.io/badge/points-116-green.svg)
 
-**Challenge Description:** the classics.
+**Challenge Description:** The classics.
 `oujp{xkurpjcxah_ljnbja_lryqna}`
 
 ### Approach
 
 For this challenge, I have read the code who is given (picture) and directly I recognized the cesar method for cipher a text (view in classes !). Good, I can use the code creates in classes for bruteforce and decrypt the potentially Cesar cipher text.
 
-![![[Pasted image 20221002180439.png]]](Pasted%20image%2020221002180439.png)
+![Code_Crypto_Spin.png](Images/Code_Crypto_Spin.png)
 
 **Flag :** `flag{obligatory_caesar_cipher}`
 
