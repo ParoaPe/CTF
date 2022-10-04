@@ -233,7 +233,7 @@ To solve this challenge, I first have to solve Honk Honk, which I already solved
 
 Try to search up 23HONK on Gogole and YouTube and eventually I’ll come across this video : 
 
-![OSINT_Does_It_Fit_My_CTF_?](Images/OSINT_Does_It_Fit_My_CTF_?.png)
+![OSINT_Does_It_Fit_My_CTF_?](Images/OSINT_Does_It_Fit_My_CTF_%3F.png)
 
 The license plate is 23HONK, which means that this is NoSurf’s car. Therefore, this must be his channel.
 
