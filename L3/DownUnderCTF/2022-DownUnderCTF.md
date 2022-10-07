@@ -1,5 +1,4 @@
 # DownUnder CTF
----
 
 Writeup of  [DownUnderCTF](https://downunderctf.com/) :
 
@@ -12,34 +11,36 @@ Writeup of  [DownUnderCTF](https://downunderctf.com/) :
 
 For this CTF, I participated in team with all of my collegues of my M2I class from the Friday, September 23 at 12 p.m to the Sunday, September 25 at 9:30 a.m.
 
----
-
 ## **Table of Contents**
 
 1. Miscellaneous
-    - [Discord](#Discord)
-    - [Twitter](#Twitter)
+   
+   - [Discord](#Discord)
+   - [Twitter](#Twitter)
 
 2. Web
-    - [Helicoptering](#Helicoptering)
+   
+   - [Helicoptering](#Helicoptering)
 
 3. OSINT
-    - [Honk_Honk](#Honk_Honk)
-    - [Bird’s_Eye_View_!](#Bird’s_Eye_View_!)
-    - [Does_It_Fit_My_CTF_?](#Does_It_Fit_My_CTF_?)
+   
+   - [Honk_Honk](#Honk_Honk)
+   - [Bird’s_Eye_View_!](#Bird’s_Eye_View_!)
+   - [Does_It_Fit_My_CTF_?](#Does_It_Fit_My_CTF_?)
 
 4. DIFR
-	- [Doxme](#Doxme)
-	- [Shop-Setup&Disclaimer](#Shop-Setup&Disclaimer)
-	- [Shop-Knock_Knock_Knock](#Shop-Knock_Knock_Knock)
+   
+   - [Doxme](#Doxme)
+   - [Shop-Setup&Disclaimer](#Shop-Setup&Disclaimer)
+   - [Shop-Knock_Knock_Knock](#Shop-Knock_Knock_Knock)
 
 5. Survey
-    - [Survey](#Survey)
+   
+   - [Survey](#Survey)
 
 6. Certification
-	- [CertOfDownUnderCTF](#CertOfDownUnderCTF)
-
----
+   
+   - [CertOfDownUnderCTF](#CertOfDownUnderCTF)
 
 ## Discord
 
@@ -56,8 +57,6 @@ So I was join the DUCTF discord and I found the flag in the memes channel.
 
 **Flag :** `DUCTF{G'day_mates_this'll_be_a_cracka}`
 
----
-
 ## Twitter
 
 ![X category](https://img.shields.io/badge/category-Miscellaneous-blue.svg)
@@ -70,8 +69,6 @@ So I was join the DUCTF discord and I found the flag in the memes channel.
 So I was going to the DownUnderCTF twitter and I found the flag in the bio.
 
 **Flag :** `DUCTF{the-mascot-on-the-ductf-hoodie-is-named-ducky}`
-
----
 
 ## Helicoptering
 
@@ -161,8 +158,6 @@ And we get the second part of our flag !
 
 **Flag :** `DUCTF{thats_it_next_time_im_using_nginx}`
 
---- 
-
 ## Honk_Honk
 
 ![X category](https://img.shields.io/badge/category-OSINT-blue.svg)
@@ -187,8 +182,6 @@ If I type in 23HONK, I get to this screen :
 And there’s our flag !
 
 **Flag :** `DUCTF{19/07/2023}`
-
----
 
 ## Bird’s_Eye_View_!
 
@@ -217,8 +210,6 @@ Also there are GPS logs in the picture who can found the place of the view.
 
 **Flag :** `DUCTF{HoopPine}`
 
----
-
 ## Does_It_Fit_My_CTF_?
 
 ![X category](https://img.shields.io/badge/category-OSINT-blue.svg)
@@ -238,8 +229,6 @@ Try to search up 23HONK on Gogole and YouTube and eventually I’ll come across 
 The license plate is 23HONK, which means that this is NoSurf’s car. Therefore, this must be his channel.
 
 **Flag :** `DUCTF{MightyCarMods}`
-
---- 
 
 ## Doxme
 
@@ -264,7 +253,6 @@ I don't think It was the classic way but it was really fast and easy as a result
 
 **Flag :** `DUCTF{WOrd_D0Cs_Ar3_R34L1Y_W3ird}`
 
----
 ## Shop-Setup&Disclaimer
 
 ![X category](https://img.shields.io/badge/category-DFIR-blue.svg)
@@ -284,8 +272,6 @@ As you can see, this challenge is an explanation for the other `Shop` challenges
 
 **Flag :** `IAgreeToTheTeasAndTheSeas`
 
---- 
-
 ## Shop-Knock_Knock_Knock
 
 ![X category](https://img.shields.io/badge/category-DFIR-blue.svg)
@@ -300,8 +286,6 @@ It talks about a bruteforce/password spray against the website. From a biased of
 
 **Flag :** `abuse@telstra.net`
 
----
-
 ## Survey
 
 ![X category](https://img.shields.io/badge/category-Survey-blue.svg)
@@ -315,8 +299,6 @@ It talks about a bruteforce/password spray against the website. From a biased of
 So I was going to the Google Forms and I found the flag at the end.
 
 **Flag :** `DUCTF{thx_4_playing_DUCTF_2022}`
-
---- 
 
 ## CertOfDownUnderCTF
 

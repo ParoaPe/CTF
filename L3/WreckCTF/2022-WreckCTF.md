@@ -1,7 +1,5 @@
 # Wreck CTF
 
----
-
 Writeup of  [WreckCTF](https://wreckctf.com/) :
 
 ![X date](https://img.shields.io/badge/date-30/09/2022-yellow.svg)
@@ -12,8 +10,6 @@ Writeup of  [WreckCTF](https://wreckctf.com/) :
 **Description :** Every year, the GreyHat cybersecurity club hosts an educational capture-the-flag competition to help college students around the world build cybersecurity skills. The competition features a number of intentionally vulnerable websites, insecure cryptographic schemes, exploitable binaries, unsafe machine learning models, and more. The full competition runs online from Sept 30 to Oct 2 (2022) and is open to everyone (college students, high school students, and security enthusiasts). We’ll have problems that are interesting to both beginners and advanced students.
 
 For this CTF, I participated (alone) from the opening on Friday, September 30 at 10 p.m and I stopped 2-3 hours later.
-
----
 
 ## **Table of Contents**
 
@@ -31,8 +27,6 @@ For this CTF, I participated (alone) from the opening on Friday, September 30 at
 3. Crypto
     - [Spin](#Spin)
 
----
-
 ## Discord
 
 ![X category](https://img.shields.io/badge/category-Miscellaneous-blue.svg)
@@ -47,8 +41,6 @@ So I was join the WRECKCTF discord and I found the flag.
 **![](https://lh5.googleusercontent.com/IyzwdctQmK2MI-Ou49OuqAqTZ9GMsYLijjKParaJg5vdrUk5AgUsMpKlZhiiOOKoCshP8GQjK-TmV92V38RVCTtY4i3_TOi0whEQ9jaCHYW-Yyr8vkhE7ZK5eKHp-hh71zCz19Rqn4egj55DveMpMIGAm1v8V8h9To9Zi3qznmT3mJow5kxEiuWS2A)**
 
 **Flag :** `flag{this_is_the_discord_flag}`
-
----
 
 ## Smoke-check
 
@@ -65,8 +57,6 @@ I read the file `flag.txt` and i found the flag (very difficult !).
 
 **Flag :** `flag{this_is_what_flags_look_like}`
 
----
-
 ## Bash
 
 ![X category](https://img.shields.io/badge/category-Miscellaneous-blue.svg)
@@ -82,8 +72,6 @@ I was try the netcat connection and I type many commands like `ls`, after that I
 [![asciicast](https://asciinema.org/a/lg8Z8SHBiTwVfyjbQZEIaedVv.svg)](https://asciinema.org/a/lg8Z8SHBiTwVfyjbQZEIaedVv)
 
 **Flag :** `flag{cat_the_flag}`
-
----
 
 ## Sources
 
@@ -105,8 +93,6 @@ I know this challenges and I have directely check they web sources, here we have
 
 **Check always** page source and scripts sources with navigators inspect tools.
 
----
-
 ## Password-1
 
 ![X category](https://img.shields.io/badge/category-Web-blue.svg)
@@ -123,8 +109,6 @@ In this challenge, we have the code source of the site and I see somewhere in th
 **![](https://lh4.googleusercontent.com/s41kY_7K20Q80B-1M_grTPDzI1mzLrB8XIPFiG-rQGYmcPUY3Yx376A63cma67wxIgi5I63eS1wBfWDA4Ja9Ui7FdvmIOSYi73VY7slnTElsF-7NjvReYAkckdN_bGnd7ygtfehldEYjbZ4RG0HOYRmCrWjPUH08NJpqJsB01vacsZrVNEPCdUxFIg)**
 
 **Falg :** `flag{why_is_hashing_in_browser_so_hard}`
-
----
 
 ## Password-2
 
@@ -147,8 +131,6 @@ This challenge is like the Web/Password-1, I have the source code of the website
 
 Adding `'OR'1'='1`, which is a true statement, all passwords are returned.
 
----
-
 ## Notes-1
 
 ![X category](https://img.shields.io/badge/category-Web-blue.svg)
@@ -168,8 +150,6 @@ Also I tried to `-1` but I had no results.
 
 **Flag :** `flag{technically_a_vulnerability}`
 
----
-
 ## Spin
 
 ![X category](https://img.shields.io/badge/category-Crypto-blue.svg)
@@ -185,5 +165,3 @@ For this challenge, I have read the code who is given (picture) and directly I r
 ![Code_Crypto_Spin.png](Images/Code_Crypto_Spin.png)
 
 **Flag :** `flag{obligatory_caesar_cipher}`
-
----
