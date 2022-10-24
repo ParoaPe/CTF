@@ -47,6 +47,7 @@ I think know the context of this challenge and I tell me, I can do a `curl` for 
 `curl http://ctf10k.root-me.org:9001/`
 
 ![](Images/INTRO_going.png)
+
 Bingo ! I see the flag.
 
 ![](Images/INTRO_going_2.png)
@@ -87,10 +88,10 @@ I got the flag, good challenge.
 ### Approach
 
 I had a picture in the challenge description and I directly push it on google image to see if I can have a response and the result was pretty good.
-![](OSINT_castle.png)
+![](Images/OSINT_castle.png)
 
 The flag is the name of the castle.
-![](OSINT_castle_2.png)
+![](Images/OSINT_castle_2.png)
 
 **Flag :** `RM{castle_roquetaillade}`
 
@@ -106,9 +107,9 @@ The flag is the name of the castle.
 I already have a challenge like this in the DownUnderCTF. I can use the `wayback machine` for see the snapshot of RootMe at the 14 October 2014.
 
 https://web.archive.org/web/20141018192412/https://www.root-me.org/
-![](OSINT_wayback.png)
+![](Images/OSINT_wayback.png)
 
-![](OSINT_wayback_2.png)
+![](Images/OSINT_wayback_2.png)
 
 **Flag :** `RM{162_22_521}`
 
@@ -123,9 +124,9 @@ https://web.archive.org/web/20141018192412/https://www.root-me.org/
 
 I had a picture in the challenge description and I directly push it on google image to see if I can have a response (like Somewhere_In_France challenge) and the result was pretty good.
 
-![](OSINT_rings.png)
+![](Images/OSINT_rings.png)
 
-![](OSINT_rings_2.png)
+![](Images/OSINT_rings_2.png)
 
 **Flag :** `RM{the_return_of_the_king}`
 
@@ -140,12 +141,12 @@ I had a picture in the challenge description and I directly push it on google im
 
 I had a picture in the challenge description and I directly push it on google image to see if I can have a response (like Somewhere_In_France and Watch_Some_Movies_? challenges) and the result was pretty good. In fact, many link bring back to Annecy Lake's.
 
-![](OSINT_annecy.png)
+![](Images/OSINT_annecy.png)
 
 After several searches around the lake, I find the right place and the name of the road from where the photo was taken!
-![](OSINT_annecy_2.png)
+![](Images/OSINT_annecy_2.png)
 
-![](OSINT_annecy_3.png)
+![](Images/OSINT_annecy_3.png)
 
 **Flag :** `RM{promenade_des_seines}`
 
@@ -159,9 +160,9 @@ After several searches around the lake, I find the right place and the name of t
 ### Approach
 
 I have Download the file attach with the challenge and I put it in `crack station` for crack the SHA-512 :
-![](CRYPTO_crypt.png)
+![](Images/CRYPTO_crypt.png)
 
-![](CRYPTO_crypt_2.png)
+![](Images/CRYPTO_crypt_2.png)
 
 ### Reflections
 The tool `hashid` can be useful for analyse the hash.
@@ -181,10 +182,10 @@ The tool `hashid` can be useful for analyse the hash.
 Fun fact, this is the first CTF where I do programming challenges because my level was very bad, but now I work every day on python code and I have many TP about developments in Calais. So I decide to check programming challenges and there are affordable. 
 This challenge need a connection to `netcat` and speak why machine to resolve RPN (calcul with Reverse Polish Notation). After many reflexions I had the flag.
 
-![Code](Code/rpn.py)
+[Code](Code/rpn.py)
 
-![](PROG_rpn.png)
-![](PROG_rpn_2.png)
+![](Images/PROG_rpn.png)
+![](Images/PROG_rpn_2.png)
 
 **Flag :** `RM{Luk4s13w1cz_w0uld_b3_pr0ud}`
 
@@ -200,9 +201,9 @@ This challenge need a connection to `netcat` and speak why machine to resolve RP
 Distributed File System is a new subjet for me and I do this challenge with   
 classmate to understand these new concepts.
 
-![Code](Code/dfs.py)
+[Code](Code/dfs.py)
 
-![](PROG_dfs.png)
+![](Images/PROG_dfs.png)
 
 **Flag :** `RM{34sy_d3pth_f1rst_s3arch}`
 
@@ -217,10 +218,10 @@ classmate to understand these new concepts.
 ### Approach
 This challenge wad fun and learn how to use dictionnaries.
 
-![Code](Code/physics_quizz_speedrun.py)
+[Code](Code/physics_quizz_speedrun.py)
 
-![](PROG_physics.png)
-![](PROG_physics_2.png)
+![](Images/PROG_physics.png)
+![](Images/PROG_physics_2.png)
 
 **Flag :** `RM{4t0ms_sp33drun3r_sp3c14l1st}`
 
@@ -239,10 +240,10 @@ An exploit can be found easly on internet : https://mayfly277.github.io/posts/GL
 
 We can just use curl with the vulnerable library (htmlawed) in GLPI and we got command injection.
 
-![](WEB_glpi.png)
-![](WEB_glpi_2.png)
-![](WEB_glpi_3.png)
-![](WEB_glpi_4.png)
+![](Images/WEB_glpi.png)
+![](Images/WEB_glpi_2.png)
+![](Images/WEB_glpi_3.png)
+![](Images/WEB_glpi_4.png)
 
 Despite my attempts to try and explore the reverse-shells that I found on the machine, I was unable to find a way to access the server. I could have tried to enumerate the server by hand to find a flag but I didn't take the time.
 
