@@ -2,7 +2,7 @@
 
 ---
 
-Writeups of <CTF_NAME> CTF: [website_name](<http://www.ctflink.com>)
+Website of <CTF_NAME> CTF: [website_name](<http://www.ctflink.com>)
 
 ![X date](https://img.shields.io/badge/date-XX/XX/XXXX-yellow.svg)
 ![X total points](https://img.shields.io/badge/total_points-XXX-blue.svg)
@@ -72,7 +72,7 @@ Writeups of <CTF_NAME> CTF: [website_name](<http://www.ctflink.com>)
 ![X category](https://img.shields.io/badge/category-category-blue.svg)
 ![X points](https://img.shields.io/badge/points-points-green.svg)
 
-Challenge Description: 
+Challenge Description : 
 
 ### Approach
 

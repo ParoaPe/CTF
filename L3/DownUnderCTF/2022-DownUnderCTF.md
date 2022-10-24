@@ -1,6 +1,6 @@
 # DownUnder CTF
 
-Writeup of  [DownUnderCTF](https://downunderctf.com/) :
+Website of  [DownUnderCTF](https://downunderctf.com/)
 
 ![X date](https://img.shields.io/badge/date-23/09/2022-yellow.svg)
 ![X total points](https://img.shields.io/badge/total_points-883-blue.svg)
@@ -47,7 +47,7 @@ For this CTF, I participated in team with all of my collegues of my M2I class fr
 ![X category](https://img.shields.io/badge/category-Miscellaneous-blue.svg)
 ![X points](https://img.shields.io/badge/points-50-green.svg)
 
-**Challenge Description:** Have you joined the [DUCTF Discord](https://duc.tf/discord) yet? There are some spicy memes, a certified memer has posted one that will give you a flag!
+**Challenge Description :** Have you joined the [DUCTF Discord](https://duc.tf/discord) yet? There are some spicy memes, a certified memer has posted one that will give you a flag!
 
 ### Approach
 
@@ -75,7 +75,7 @@ So I was going to the DownUnderCTF twitter and I found the flag in the bio.
 ![X category](https://img.shields.io/badge/category-Web-blue.svg)
 ![X points](https://img.shields.io/badge/points-50-green.svg)
 
-**Challenge Description:** Is that an Apache I overheard ?
+**Challenge Description :** Is that an Apache I overheard ?
 `http://34.87.217.252:30026/`
 
 ### Approach
@@ -163,7 +163,7 @@ And we get the second part of our flag !
 ![X category](https://img.shields.io/badge/category-OSINT-blue.svg)
 ![X points](https://img.shields.io/badge/points-50-green.svg)
 
-**Challenge Description:** It definitely has something to do with vehicles. Since NoSurf points out that his rego is 23HONK, let’s try searching that up on Google.
+**Challenge Description :** It definitely has something to do with vehicles. Since NoSurf points out that his rego is 23HONK, let’s try searching that up on Google.
 
 ### Approach
 
@@ -188,7 +188,7 @@ And there’s our flag !
 ![X category](https://img.shields.io/badge/category-OSINT-blue.svg)
 ![X points](https://img.shields.io/badge/points-50-green.svg)
 
-**Challenge Description:** What a nice spot to have a picnic, EXAMINE the image and discover where this was taken.
+**Challenge Description :** What a nice spot to have a picnic, EXAMINE the image and discover where this was taken.
 
 ### Approach
 
@@ -215,7 +215,7 @@ Also there are GPS logs in the picture who can found the place of the view.
 ![X category](https://img.shields.io/badge/category-OSINT-blue.svg)
 ![X points](https://img.shields.io/badge/points-50-green.svg)
 
-**Challenge Description:** Cheers for that, I'm assuming you've worked out that I'm YouTuber... What's my channel name?
+**Challenge Description :** Cheers for that, I'm assuming you've worked out that I'm YouTuber... What's my channel name?
 Note: This challenge assumes you have solved "Honk Honk" before attempting.
 
 ### Approach
@@ -235,7 +235,7 @@ The license plate is 23HONK, which means that this is NoSurf’s car. Therefore,
 ![X category](https://img.shields.io/badge/category-DFIR-blue.svg)
 ![X points](https://img.shields.io/badge/points-50-green.svg)
 
-**Challenge Description:** Office is my safe word...
+**Challenge Description :** Office is my safe word...
 
 ### Approach
 
@@ -258,7 +258,7 @@ I don't think It was the classic way but it was really fast and easy as a result
 ![X category](https://img.shields.io/badge/category-DFIR-blue.svg)
 ![X points](https://img.shields.io/badge/points-50-green.svg)
 
-**Challenge Description:** Solving this challenge will unlock more "Shop- " challenges in the DFIR category.
+**Challenge Description :** Solving this challenge will unlock more "Shop- " challenges in the DFIR category.
 All the "Shop- " challenges in the DFIR category use the same JSON data set (`DownUnderShop.JSON`) which can be downloaded from here.
 We'd encourage you to use a log analytics tool such as Splunk (1 week free cloud trial) to assist with analysing the logs.
 These logs and scenarios are designed to be real-ish, they're simpler and given that the entire data set covers 1hr all malicious activity is conducted on a condensed time frame.
@@ -277,7 +277,7 @@ As you can see, this challenge is an explanation for the other `Shop` challenges
 ![X category](https://img.shields.io/badge/category-DFIR-blue.svg)
 ![X points](https://img.shields.io/badge/points-50-green.svg)
 
-**Challenge Description:** Looks like there's been a bruteforce/password spray attempt ouvez intégrer une image du pdf.against the website!
+**Challenge Description :** Looks like there's been a bruteforce/password spray attempt ouvez intégrer une image du pdf.against the website!
 What's the contact email for the ISP of the attacker's IP?
 
 ### Approach

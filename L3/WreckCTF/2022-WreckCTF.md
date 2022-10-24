@@ -1,6 +1,6 @@
 # Wreck CTF
 
-Writeup of  [WreckCTF](https://wreckctf.com/) :
+Website of  [WreckCTF](https://wreckctf.com/) :
 
 ![X date](https://img.shields.io/badge/date-30/09/2022-yellow.svg)
 ![X total points](https://img.shields.io/badge/total_points-888-blue.svg)
@@ -32,7 +32,7 @@ For this CTF, I participated (alone) from the opening on Friday, September 30 at
 ![X category](https://img.shields.io/badge/category-Miscellaneous-blue.svg)
 ![X points](https://img.shields.io/badge/points-1-green.svg)
 
-**Challenge Description:** This challenge is just for join the Discord and catch the flag on the "Annoucement" Channel.
+**Challenge Description :** This challenge is just for join the Discord and catch the flag on the "Annoucement" Channel.
 
 ### Approach
 
@@ -62,7 +62,7 @@ I read the file `flag.txt` and i found the flag (very difficult !).
 ![X category](https://img.shields.io/badge/category-Miscellaneous-blue.svg)
 ![X points](https://img.shields.io/badge/points-112-green.svg)
 
-**Challenge Description:** I guess it's probably dash, not bash. can you read the flag ?
+**Challenge Description :** I guess it's probably dash, not bash. can you read the flag ?
 `nc challs.wreckctf.com 31106`
 
 ### Approach
@@ -78,7 +78,7 @@ I was try the netcat connection and I type many commands like `ls`, after that I
 ![X category](https://img.shields.io/badge/category-Miscellaneous-blue.svg)
 ![X points](https://img.shields.io/badge/points-100-green.svg)
 
-**Challenge Description:** Click to spin, search for the flag !
+**Challenge Description :** Click to spin, search for the flag !
 `sources.challs.wreckctf.com`
 
 ### Approach
@@ -98,7 +98,7 @@ I know this challenges and I have directely check they web sources, here we have
 ![X category](https://img.shields.io/badge/category-Web-blue.svg)
 ![X points](https://img.shields.io/badge/points-130-green.svg)
 
-**Challenge Description:** Can you figure out how to log in ?
+**Challenge Description :** Can you figure out how to log in ?
 `https://password-1.challs.wreckctf.com`
 
 ### Approach
@@ -115,7 +115,7 @@ In this challenge, we have the code source of the site and I see somewhere in th
 ![X category](https://img.shields.io/badge/category-Web-blue.svg)
 ![X points](https://img.shields.io/badge/points-183-green.svg)
 
-**Challenge Description:** Okay, i fixed that. can you still log in?
+**Challenge Description :** Okay, i fixed that. can you still log in?
 `password-2.challs.wreckctf.com`
 
 ### Approach
@@ -136,7 +136,7 @@ Adding `'OR'1'='1`, which is a true statement, all passwords are returned.
 ![X category](https://img.shields.io/badge/category-Web-blue.svg)
 ![X points](https://img.shields.io/badge/points-245-green.svg)
 
-**Challenge Description:** Can you read the admin's note ?
+**Challenge Description :** Can you read the admin's note ?
 `https://notes-1.challs.wreckctf.com`
 
 ### Approach
@@ -155,7 +155,7 @@ Also I tried to `-1` but I had no results.
 ![X category](https://img.shields.io/badge/category-Crypto-blue.svg)
 ![X points](https://img.shields.io/badge/points-116-green.svg)
 
-**Challenge Description:** The classics.
+**Challenge Description :** The classics.
 `oujp{xkurpjcxah_ljnbja_lryqna}`
 
 ### Approach

