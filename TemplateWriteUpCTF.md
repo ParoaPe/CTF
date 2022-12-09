@@ -1,8 +1,6 @@
 # <CTF_NAME> CTF
 
----
-
-Website of <CTF_NAME> CTF: [website_name](<http://www.ctflink.com>)
+**Website :** [website_name](<http://www.ctflink.com>)
 
 ![X date](https://img.shields.io/badge/date-XX/XX/XXXX-yellow.svg)
 ![X total points](https://img.shields.io/badge/total_points-XXX-blue.svg)
@@ -10,8 +8,6 @@ Website of <CTF_NAME> CTF: [website_name](<http://www.ctflink.com>)
 ![X solo](https://img.shields.io/badge/team-alone-orange.svg)
 
 **Descrption :** 
-
----
 
 ## **Table of Contents**
 
@@ -30,42 +26,6 @@ Website of <CTF_NAME> CTF: [website_name](<http://www.ctflink.com>)
    - [<challenge_1>](<link_to_writeup>)
    - [<challenge_2>](<link_to_writeup>)
 
-4. Reverse Engineering/Malware
-   
-   - [<challenge_1>](<link_to_writeup>)
-   - [<challenge_2>](<link_to_writeup>)
-
-5. Pwn/Binary Exploitation
-   
-   - [<challenge_1>](<link_to_writeup>)
-   - [<challenge_2>](<link_to_writeup>)
-
-6. Cloud
-   
-   - [<challenge_1>](<link_to_writeup>)
-   - [<challenge_2>](<link_to_writeup>)
-
-7. IoT
-   
-   - [<challenge_1>](<link_to_writeup>)
-   - [<challenge_2>](<link_to_writeup>)
-
-8. ML
-   
-   - [<challenge_1>](<link_to_writeup>)
-   - [<challenge_2>](<link_to_writeup>)
-
-9. Hardware
-   
-   - [<challenge_1>](<link_to_writeup>)
-   - [<challenge_2>](<link_to_writeup>)
-
-10. OSINT
-    
-    - [<challenge_1>](<link_to_writeup>)
-    - [<challenge_2>](<link_to_writeup>)
-
----
 
 ## **challenge 1**
 
@@ -84,4 +44,3 @@ explain, put websources and put images
 
 reflections, what i have to remember
 
----

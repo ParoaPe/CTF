@@ -1,6 +1,6 @@
 # Wreck CTF
 
-Website of  [WreckCTF](https://wreckctf.com/) :
+**Website :** [WreckCTF](https://wreckctf.com/)
 
 ![X date](https://img.shields.io/badge/date-30/09/2022-yellow.svg)
 ![X total points](https://img.shields.io/badge/total_points-888-blue.svg)

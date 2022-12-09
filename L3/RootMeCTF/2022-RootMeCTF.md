@@ -1,6 +1,6 @@
 # RootMe CTF
 
-Website of [Root Me](https://www.root-me.org/) :
+**Website :** [RootMe](https://www.root-me.org/)
 
 ![X date](https://img.shields.io/badge/date-21/10/2022-yellow.svg)
 ![X total points](https://img.shields.io/badge/total_points-1142-blue.svg)

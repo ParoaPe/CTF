@@ -1,6 +1,6 @@
 # DownUnder CTF
 
-Website of  [DownUnderCTF](https://downunderctf.com/)
+**Website :** [DownUnderCTF](https://downunderctf.com/)
 
 ![X date](https://img.shields.io/badge/date-23/09/2022-yellow.svg)
 ![X total points](https://img.shields.io/badge/total_points-883-blue.svg)
