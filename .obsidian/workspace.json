@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/HackingProvenceCTF/2022-HackInProvenceCTF.md",
+                "file": "L3/ShaktiCTF/2022-ShaktiCTF.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/HackingProvenceCTF/2022-HackInProvenceCTF.md",
+                "file": "L3/ShaktiCTF/2022-ShaktiCTF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/HackingProvenceCTF/2022-HackInProvenceCTF.md",
+                "file": "L3/ShaktiCTF/2022-ShaktiCTF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/HackingProvenceCTF/2022-HackInProvenceCTF.md"
+                "file": "L3/ShaktiCTF/2022-ShaktiCTF.md"
               }
             }
           }
@@ -136,9 +136,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "71d30e0b3dad2431",
+  "active": "35c835eee9517a74",
   "lastOpenFiles": [
-    "L3/RootMeCTF/2022-RootMeCTF.md",
-    "L3/HackingProvenceCTF/2022-HackInProvenceCTF.md"
+    "L3/WreckCTF/2022-WreckCTF.md",
+    "L3/DownUnderCTF/2022-DownUnderCTF.md",
+    "L3/HackingProvenceCTF/2022-HackInProvenceCTF.md",
+    "L3/RootMeCTF/2022-RootMeCTF.md"
   ]
 }
